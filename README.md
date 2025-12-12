@@ -51,3 +51,7 @@ The full machine learning models and analyses developed as part of the broader
 PhD research project are not included in this repository. This repository
 focuses on sharing a clean, well-documented sample dataset and a minimal example
 workflow to support open science principles.
+
+## Reflection
+
+A written reflection on the design choices, ethical considerations, and lessons learned in this project is provided in [REFLECTION.md](REFLECTION.md).
