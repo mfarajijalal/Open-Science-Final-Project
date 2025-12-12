@@ -6,9 +6,9 @@ responsible, transparent, and reproducible way.
 
 ## Project Overview
 
-The dataset included in this repository contains a small, de-identified sample
+This project is directly derived from my ongoing PhD research on vibration-based analysis of tree-shaking systems and was intentionally designed to apply open science principles—such as transparency, reproducibility, and responsible data sharing—to a real-world research workflow. The dataset included in this repository contains a small, de-identified sample
 of vibration and acceleration measurements collected from tree-shaking
-experiments. Each CSV file corresponds to one individual tree.
+experiments. Each CSV file corresponds to one individual tree. 
 
 Only a limited subset of the full research data is shared here. All identifying
 information (e.g., GPS coordinates, timestamps, and experimental IDs) has been
