@@ -1,4 +1,4 @@
-Reflection – Open Science Final Project
+# Reflection – Open Science Final Project
 
 This project was designed as a practical and reflective exercise in applying open science principles to a real-world research workflow. Rather than constructing a synthetic or toy example, I chose to work with a small, carefully curated, and de-identified subset of data derived from my ongoing PhD research on vibration and acceleration measurements collected during tree-shaking experiments. This choice allowed me to engage directly with the authentic challenges researchers face when attempting to balance transparency, reproducibility, and ethical responsibility in data sharing.
 
