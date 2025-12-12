@@ -1,11 +1,9 @@
 # Open Science Final Project
-
 This repository was created as part of the Open Science course final project.
 It demonstrates how a small, real-world research dataset can be shared in a
 responsible, transparent, and reproducible way.
 
 ## Project Overview
-
 This project is directly derived from my ongoing PhD research on vibration-based analysis of tree-shaking systems and was intentionally designed to apply open science principles—such as transparency, reproducibility, and responsible data sharing—to a real-world research workflow. The dataset included in this repository contains a small, de-identified sample
 of vibration and acceleration measurements collected from tree-shaking
 experiments. Each CSV file corresponds to one individual tree. 
@@ -28,7 +26,6 @@ Open-Science-Final-Project/
 └── README.md
 ```
 ## Data Description
-
 Each CSV file contains time-series sensor data with the following columns:
 
 - `time_us`: Time in microseconds
@@ -40,18 +37,35 @@ Each CSV file contains time-series sensor data with the following columns:
 The dataset is intended for demonstration and reproducibility purposes only.
 
 ## Reproducibility
-
 A minimal Python script (`load_and_plot.py`) is provided to demonstrate how the
 data can be loaded, explored, and visualized. The script is intentionally kept
 simple to ensure that it can be easily understood and reused by others.
 
 ## Notes on Broader Research Context
-
 The full machine learning models and analyses developed as part of the broader
 PhD research project are not included in this repository. This repository
 focuses on sharing a clean, well-documented sample dataset and a minimal example
 workflow to support open science principles.
 
 ## Reflection
-
 A written reflection on the design choices, ethical considerations, and lessons learned in this project is provided in [REFLECTION.md](REFLECTION.md).
+
+## FAIR and CARE Principles
+This project was designed with explicit attention to FAIR (Findable, Accessible, Interoperable, Reusable) principles and, where applicable, CARE considerations.
+
+### FAIR Principles
+
+**Findable:**  
+This repository is publicly available on GitHub with a clear directory structure, descriptive file names, and comprehensive documentation. The organized layout and README content support easy discovery and understanding of the dataset and code.
+
+**Accessible:**  
+All data and code in this repository are openly accessible without restrictions. The dataset is provided in standard CSV format, and the analysis code is written in Python using commonly available libraries, ensuring broad accessibility without the need for proprietary software.
+
+**Interoperable:**  
+The dataset is stored in non-proprietary CSV format with clearly defined column names and units. This enables straightforward use across different programming languages, platforms, and analysis environments.
+
+**Reusable:**  
+The dataset is accompanied by detailed documentation describing the experimental context, variables, and intended scope of use. An example analysis script (`load_and_plot.py`) is included to demonstrate how the data can be loaded, explored, and reused in future studies. The repository structure and documentation are designed to support reproducibility and responsible reuse.
+
+### CARE Considerations
+To ensure ethical and responsible data sharing, this repository includes only a carefully curated, de-identified subset of a larger research dataset. Potentially sensitive information (such as GPS coordinates, timestamps, and experimental identifiers) has been removed. This approach balances openness with ethical responsibility and respects the broader research context from which the data were derived.
