@@ -85,5 +85,15 @@ The included Python script (`load_and_plot.py`) demonstrates a minimal but compl
 ### Data Management Approach
 The dataset shared in this repository represents a carefully curated, de-identified subset of a larger experimental dataset. This data management choice balances openness, reproducibility, and ethical responsibility. The use of standard CSV formats and clear documentation supports long-term usability and practical reuse while maintaining appropriate scope and data governance.
 
-## License
-This project is released under the MIT License. See the LICENSE file for details.
+## Ethical and Legal Considerations
+
+This project has been designed with explicit attention to ethical and legal responsibilities associated with data sharing and reuse.
+
+**Licensing and Intellectual Property:**  
+The repository is released under the MIT License, which clearly defines reuse permissions while protecting authorship and limiting liability.
+
+**Ethical Use of Data:**  
+The shared dataset represents a carefully curated, de-identified subset of a larger research dataset. Potentially sensitive information (such as GPS coordinates, timestamps, and experimental identifiers) has been removed to protect privacy and ensure responsible data sharing.
+
+**Responsible Research Practice:**  
+The dataset is provided solely for demonstration, educational, and reproducibility purposes. It is not intended to represent the full experimental scope or to support direct operational decisions without appropriate context and validation.
