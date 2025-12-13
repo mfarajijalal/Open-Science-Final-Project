@@ -110,7 +110,7 @@ The dataset shared in this repository represents a carefully curated, de-identif
 This project has been developed with explicit attention to ethical responsibility, data governance, and appropriate data reuse, in alignment with open science best practices.
 
 **Licensing and Intellectual Property:**  
-The repository is released under the MIT License, which clearly defines reuse permissions while protecting authorship and limiting liability.
+The source code in this repository is released under the MIT License, which clearly defines reuse permissions while protecting authorship and limiting liability. The dataset included in the `data/` directory is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License, which permits reuse, redistribution, and adaptation for any purpose, provided appropriate credit is given to the original author.
 
 **Scope and Nature of the Data**  
 The shared dataset consists exclusively of non-human, non-personal time-series sensor measurements collected during controlled mechanical tree-shaking experiments. It does not contain human subject data, personal identifiers, or culturally sensitive knowledge. Precise timestamps, experimental identifiers, and location-specific metadata have been intentionally removed to reduce re-identification risk and prevent misuse.
