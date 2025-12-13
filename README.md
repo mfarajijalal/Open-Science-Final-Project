@@ -2,7 +2,7 @@
 This repository was created as part of the Open Science course final project. It demonstrates how a small, real-world research dataset can be shared in a responsible, transparent, and reproducible manner.
 
 ## Project Overview
-This project is derived from my ongoing PhD research on vibration-based analysis of tree-shaking systems and was intentionally designed to apply open science principles—such as transparency, reproducibility, and responsible data sharing—to a real-world research workflow. 
+This project is derived from my ongoing PhD research on vibration-based analysis of tree-shaking systems and was intentionally designed to apply open science principles, such as transparency, reproducibility, and responsible data sharing, to a real world research workflow. 
 
 The dataset included in this repository contains a small, de-identified subset of vibration and acceleration measurements collected during controlled tree-shaking experiments. Each CSV file corresponds to an individual tree. Only a limited portion of the full research dataset is shared. All identifying information (e.g., GPS coordinates, precise timestamps, and experimental identifiers) has been removed to support ethical data governance and responsible reuse.
 
