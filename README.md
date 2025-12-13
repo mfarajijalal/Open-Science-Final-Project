@@ -32,6 +32,56 @@ The dataset is intended for demonstration and reproducibility purposes only.
 
 ## Reproducibility
 A minimal Python script (`load_and_plot.py`) is provided to demonstrate how the data can be loaded, explored, and visualized. The script is intentionally lightweight and readable to ensure accessibility and ease of reuse by others.
+This repository includes a minimal, self-contained Python script that demonstrates how to load, inspect, and visualize the shared dataset.
+
+### Requirements
+
+To run the example code, you need:
+Python 3.8 or later
+The following Python packages:
+pandas
+matplotlib
+
+These packages can be installed using:
+
+pip install pandas matplotlib
+
+Running the Code
+
+Clone the repository:
+
+git clone https://github.com/<your-username>/Open-Science-Final-Project.git
+
+
+Navigate to the code/ directory:
+
+cd Open-Science-Final-Project/code
+
+
+Run the example script:
+
+python load_and_plot.py
+
+
+The script automatically loads all CSV files matching tree_T*.csv from the data/ directory, prints basic summary statistics, and generates example plots of the acceleration signal.
+
+Expected Output
+
+Console output showing the first few rows and descriptive statistics for each dataset
+
+Time-series plots of the vertical acceleration (az) signal for each tree
+
+The script is intentionally lightweight and dependency-minimal to ensure accessibility and ease of reuse. Users may adapt or extend the script for additional analyses or modeling tasks.
+
+
+
+
+
+
+
+
+
+
 
 ## Broader Research Context
 The full machine learning models and advanced analyses developed as part of the broader PhD research project are not included in this repository. Instead, this repository focuses on sharing a clean, well-documented sample dataset and a minimal example workflow that supports open science principles without introducing unnecessary complexity.
