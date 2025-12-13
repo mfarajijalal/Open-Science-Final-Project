@@ -37,10 +37,15 @@ This repository includes a minimal, self-contained Python script that demonstrat
 ### Requirements
 
 To run the example code, you need:
-Python 3.8 or later
-The following Python packages:
-pandas
-matplotlib
+- Python 3.8 or later
+- The following Python packages:
+- `pandas`
+- `matplotlib`
+
+
+
+
+
 
 These packages can be installed using:
 
